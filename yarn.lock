@@ -1163,26 +1163,19 @@
   dependencies:
     long-timeout "^0.1.1"
 
-"@tryghost/elasticsearch-bunyan@0.1.1":
+"@tryghost/elasticsearch-bunyan@0.1.1", "@tryghost/elasticsearch-bunyan@^0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@tryghost/elasticsearch-bunyan/-/elasticsearch-bunyan-0.1.1.tgz#5a36d81dd020825dd563b1357ae6c249580c46f5"
   integrity sha512-ILhumzdwJNoRG44S0FkgzZQlkCYioTKWEiY+FFFQpTFWwZ3Jd5a6us5k8tEsd+Wf2rZOvul/ehV45j2c2l1BMw==
   dependencies:
     "@elastic/elasticsearch" "^7.10.0"
 
-"@tryghost/elasticsearch-bunyan@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@tryghost/elasticsearch-bunyan/-/elasticsearch-bunyan-0.1.0.tgz#cb66b2eba0c5e5970645b4548e2a41b1ce7a33cc"
-  integrity sha512-Qg/6JfMU5l5+dWJDuXLTrq4CIzucIeZ2H3bH5cOY6Yp+rLqBAADhRzAdlwL6s2Ab/X7/156Ljl58Ik+dpsgWRQ==
+"@tryghost/errors@0.2.9":
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-0.2.9.tgz#b27fb31633735975ce62e53e88bc2412dc6fd876"
+  integrity sha512-ULWfgTYqSO2uU9Sb75+MQpuYsy3sCF5QTXy5RqpzJdACWKW2Mtg3fPGS6fVEHuxbUhOxEhq1eu9gsWFWLljTEA==
   dependencies:
-    "@elastic/elasticsearch" "^7.10.0"
-
-"@tryghost/errors@0.2.8":
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-0.2.8.tgz#887531bd41dc6f6fdfc8a6dda8ef08acccddf08b"
-  integrity sha512-PF6vFZnRhMKxZ9FeNtYOHTn3wKMF2u+rgC4Iw33O2tHPCPtRzQTGUU8kO02sY5pjx19OjBOlYyye5n9fRHwJPA==
-  dependencies:
-    ghost-ignition "4.4.3"
+    ghost-ignition "4.4.4"
     lodash "4.17.20"
 
 "@tryghost/kg-clean-basic-html@^1.0.15":
@@ -2805,12 +2798,12 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-ghost-ignition@4.4.3:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/ghost-ignition/-/ghost-ignition-4.4.3.tgz#c837ab11e1f3a1cfd22cc24df6b506a9afc1bc25"
-  integrity sha512-eViE/ae+AGV/YmVbTq2W5TBWVu724EUJ0pjtSwa4q6o1+fXxMIqoELJaxMX+Gc9PBK0nI3J+E0JI8GdrEiqndg==
+ghost-ignition@4.4.4:
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/ghost-ignition/-/ghost-ignition-4.4.4.tgz#6d16912a733a21582680d859de3a1dff868d4c67"
+  integrity sha512-tYWDirmtBtTq2etRr2co7n1PPhyoeVIHZhPfG7NDIH5GUDZ8QYlCmxC8nlhy3nnDve5ZunDAg0FlA3Rjqa0kug==
   dependencies:
-    "@tryghost/elasticsearch-bunyan" "^0.1.0"
+    "@tryghost/elasticsearch-bunyan" "^0.1.1"
     bunyan "1.8.15"
     bunyan-loggly "1.4.2"
     caller "1.0.1"
